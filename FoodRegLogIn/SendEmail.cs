@@ -16,7 +16,7 @@ namespace FoodRegLogIn
             System.Net.Mail.SmtpClient MySmtp = new System.Net.Mail.SmtpClient("smtp.gmail.com", 587);
 
 
-            MySmtp.Credentials = new System.Net.NetworkCredential("moutainonlysoup1997@gmail.com", "61352089qrtp960");
+            MySmtp.Credentials = new System.Net.NetworkCredential("您的電子郵件信箱", "您的電子郵件密碼");
 
             MySmtp.EnableSsl = true;
             MailMessage mail = new MailMessage();
